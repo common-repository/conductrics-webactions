@@ -1,0 +1,47 @@
+/*
+	put reveal-on-hover on a container, and revealed-on-hover on stuff within it
+	the inner stuff will be revealed when you hover over the container
+*/
+
+.link-list-container {
+	display: inline-block;
+}
+.link-list-container ul {
+	margin: 0;
+}
+.link-list-item-label {
+	padding: 5px 0;
+}
+.link-list-item-label strong {
+	font-size: 110%;
+}
+.link-list-item-links {
+}
+.agent-list-refresh {
+	background-image: url('./refresh-icon.png');
+	background-repeat: no-repeat;
+	min-height: 20px;
+	min-width: 20px;
+	float:right;
+	background-position: center bottom;
+}
+.agent-status {
+	min-width: 55px;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	padding: 2px;
+	float:right;
+}
+.agent-status.agent-status-enabled {
+	background-color: #468847;
+}
+.agent-status.agent-status-paused {
+	background-color: #f89406;
+}
+.agent-status.agent-status-stopped {
+	background-color: #b94a48;
+}
+.agent-status.agent-status-deleted {
+	background-color: #888;
+}
